@@ -7,7 +7,7 @@ client.on("ready", () => {
 
 client.on("message", message => {
   if (message.content === "$payment") {
-    msg.reply("pong");
+    message.reply("pong");
   }
 })
 
