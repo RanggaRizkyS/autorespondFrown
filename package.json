@@ -1,5 +1,5 @@
 {
-  "name": "Business Bot",
+  "name": "EconomyBot",
   "version": "1.0.0",
   "description": "A basic bot im using in my server",
   "main": "index.js",
