@@ -8,7 +8,7 @@ client.on("ready", () => {
 client.on("message", message => {
   if (message.content === "$payment") {
     const payEmbed = new Discord.MessageEmbed()
-        .title(`Payment - FrownCloud`)
+        .setTitle(`Payment - FrownCloud`)
         .addField(`Pulsa`, `088214812908`)
         .addField(`Qris (Powered By Leopay)`, `All payment, tinggal scan kode di bawa`)
         .setImage(`https://meflems.github.io/autorespondFrown/qris.png`)
