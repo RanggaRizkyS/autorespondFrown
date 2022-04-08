@@ -1,0 +1,20 @@
+{
+  "name": "Business Bot",
+  "version": "1.0.0",
+  "description": "A basic bot im using in my server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Meflems",
+  "license": "Nginx",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/Meflems/autorespondFrown"
+  }
+}
