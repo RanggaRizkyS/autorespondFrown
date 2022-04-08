@@ -14,7 +14,7 @@ client.on("message", message => {
         .setImage(`https://meflems.github.io/autorespondFrown/qris.png`)
         .setFooter(`https://frownmc.xyz`)
         .setTimestamp();
-    message.channel.send(payEmbed);
+    message.channel.send(payEmbed); //send
   }
 })
 
