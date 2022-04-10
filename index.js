@@ -17,6 +17,24 @@ client.on("message", message => {
         .setTimestamp();
     message.channel.send(payEmbed); //send
   }
+  if (message.content === "$") {
+  	const help1Embed = new Discord.MessageEmbed()
+          .setTitle(`Help - FrownCloud`)
+          .addField(`Command`, `$payment, $cekpromo`)
+          .addField(`Persetujuan Hosting`, `https://frownmc.xyz/pages/agg/index.html`)
+          .setFooter(`https://frownmc.xyz`)
+          .setTimestamp();
+      message.channel.send(help1Embed);
+  }
+  if (message.content === "$help") {
+  	const help2Embed = new Discord.MessageEmbed()
+          .setTitle(`Help - FrownCloud`)
+          .addField(`Command`, `$payment, $cekpromo`)
+          .addField(`Persetujuan Hosting`, `https://frownmc.xyz/pages/agg/index.html`)
+          .setFooter(`https://frownmc.xyz`)
+          .setTimestamp();
+      message.channel.send(help2Embed);
+  }
 })
 
 client.login(process.env.TOKEN)
